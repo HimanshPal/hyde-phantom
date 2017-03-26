@@ -1,0 +1,17 @@
+{{ partial "header.html" . }}
+<div class="content container">
+  <div class="post">
+    {{"<!-- Posticon. If blank or not set, show default //-->" | safeHTML}}
+    {{ if (not (isset .Params "image_path_404")) | or (eq .Params.image_path_404 "") }}
+    <img src="/images/404.png" />
+    {{"<!-- Posticon. Otherwise show defined icon //-->" | safeHTML}}
+    {{ else }}
+    <img src="{{.Params.image_path_404 }}" />
+    {{ end }}
+    <br />
+    <h1>Oh no, bad luck!</h1>
+    <p style="color:gray">The page you’re looking for could have been deleted or never have existed.</p>
+    <p ><a href="{{ "/" | absURL }}">&larr; back home</a></p>
+  </div>
+</div>
+{{ partial "footer.html" . }}

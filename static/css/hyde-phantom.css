@@ -1,0 +1,75 @@
+/*
+ * Tweaks and overrides to hyde.css
+ */
+.sidebar-about h1 {
+  color: #eee;
+  margin-top: 0;
+  font-size: 1.8rem;
+/*  font-family: "Abril Fatface", serif;
+*/
+}
+
+.sidebar-nav {
+  padding-left: 0;
+  list-style: none;
+  margin-bottom: 1rem;
+}
+
+.label {
+  font-weight: 500;
+}
+
+.item-spacing {
+  padding-right: 3px;
+}
+
+/* slack sidebar dark-colors
+ * #193549
+ * #292D36
+ * #181D27
+ * #21252B
+ * #40364D
+ * #151525
+ * #1C1F25
+ * #352e59
+ * #302e59
+ * #282c34
+ * #1F2036
+ * #282B30
+*/
+.sidebar {
+  background-color: #282B30;
+}
+
+.sidebar a {
+  color: #eee;
+}
+
+.lead {
+  font-size: 1.10rem;
+}
+
+@media (min-width: 48em) {
+  .sidebar {
+    width: 20rem;
+  }
+}
+
+@media (min-width: 48em) {
+  .content {
+    max-width: 48rem;
+    margin-left: 21rem;
+    margin-right: 2rem;
+  }
+}
+
+body {
+  background-color: #fefefe;
+}
+
+@media (min-width: 58em) {
+  html {
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+}

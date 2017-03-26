@@ -1,0 +1,24 @@
+license = "MIT"
+licenselink = "https://github.com/HimanshPal/hyde-phantom/blob/master/LICENSE"
+tags = ["blog", "technical", "personal"]
+features = ["blog", "technical", "personal", "themes", "disqus"]
+min_version = 0.14
+
+name = "Hyde-Phantom"
+homepage = "https://github.com/himanshpal/hyde-phantom"
+description = "An elegant open source and mobile first theme, extended with new integrations and layout improvements"
+
+[author]
+    name = "Himanshu Rathore"
+    homepage = "https://himanshpal.github.io/"
+
+# If Porting existing theme
+[original]
+    author = "Andrei Mihu"
+    homepage = "http://andreimihu.com"
+    repo = "https://github.com/zyro/hyde-x"
+
+[original]
+    author = "poole"
+    homepage = "http://hyde.getpoole.com"
+    repo = "https://github.com/poole/hyde"
